@@ -10,9 +10,15 @@ const Footer = () => {
           <img src={assets.nlogo} alt="" />
           <p>A fusion of flavors inspired by the Malaysian archipelago.</p>
           <div className="footer-social-icons">
-            <img src={assets.facebook_icon} alt="" />
-            <img src={assets.twitter_icon} alt="" />
-            <img src={assets.linkedin_icon} alt="" />
+            <Link to="https://www.facebook.com/nurieicloud">
+              <img src={assets.facebook_icon} alt="" />
+            </Link>
+            <Link to="https://x.com/?lang=en&mx=2">
+              <img src={assets.twitter_icon} alt="" />
+            </Link>
+            <Link to="https://www.linkedin.com/in/nurillahi-roxas-899675346/">
+              <img src={assets.linkedin_icon} alt="" />
+            </Link>
           </div>
         </div>
         <div className="footer-content-center">
